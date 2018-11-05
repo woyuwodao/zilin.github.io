@@ -644,11 +644,11 @@ body {
 }
 .cont-grid {
 	float: left;
-	width: 62.3333%;
+	width: 99%;
 }
 .cont-grid-img{
 	margin-right: 3.3333%;
-	width: 34.33333%;
+	width: 95%;
 	float:left;
 }
 .cont-grid-img img{
