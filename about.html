@@ -139,8 +139,8 @@
       addMapOverlay();//向地图添加覆盖物
     }
     function createMap(){ 
-      map = new BMap.Map("allmap");    
-      map.centerAndZoom(new BMap.Point(113.189250,23.457810),17);
+      map = new BMap.Map("allmap");
+      map.centerAndZoom(new BMap.Point(113.195686,23.463596),17);
     }
     function setMapEvent(){
       map.enableScrollWheelZoom();
@@ -155,7 +155,7 @@
     }
     function addMapOverlay(){
       var markers = [
-        {content:"联系电话：18932133759<br /> 邮箱：1125076310@qq.com<br /> 地址：广东省广州市花都区狮岭镇合成横坑一队重庆面馆对面",title:"广州狮岭子霖皮具厂",imageOffset: {width:-69,height:-21},position:{lat:23.457810,lng:113.189250}}
+        {content:"联系电话：18932133759<br /> 邮箱：1125076310@qq.com<br /> 地址：广东省广州市花都区狮岭镇合成横坑一队重庆面馆对面",title:"广州狮岭子霖皮具厂",imageOffset: {width:-69,height:-21},position:{lat:23.463596,lng:113.195686}}
       ];
       for(var index = 0; index < markers.length; index++ ){
         var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);
